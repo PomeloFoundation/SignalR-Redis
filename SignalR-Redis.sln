@@ -1,11 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22418.1
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNetCore.SignalR.Redis", "src\Microsoft.AspNetCore.SignalR.Redis\Microsoft.AspNetCore.SignalR.Redis.xproj", "{01CBC84D-8DB6-44FA-BD10-1BD7ACFEB5F3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95F84362-7506-462B-A115-D6FBDACEC4E7}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNetCore.SignalR.Redis.Tests", "test\Microsoft.AspNetCore.SignalR.Redis.Tests\Microsoft.AspNetCore.SignalR.Redis.Tests.xproj", "{D54E562F-6851-4E8E-89D7-82AFB9337693}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F3402EBC-E20A-4219-810F-B24AE08BAABC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Pomelo.AspNetCore.SignalR.Redis", "src\Pomelo.AspNetCore.SignalR.Redis\Pomelo.AspNetCore.SignalR.Redis.xproj", "{D9A1DAE3-BE3C-48E6-A421-EA8CB2979441}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Pomelo.AspNetCore.SignalR.Redis.Tests", "test\Pomelo.AspNetCore.SignalR.Redis.Tests\Pomelo.AspNetCore.SignalR.Redis.Tests.xproj", "{B8E8A04C-9F87-493A-82B8-3A5EADEA81E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +16,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{01CBC84D-8DB6-44FA-BD10-1BD7ACFEB5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01CBC84D-8DB6-44FA-BD10-1BD7ACFEB5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01CBC84D-8DB6-44FA-BD10-1BD7ACFEB5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01CBC84D-8DB6-44FA-BD10-1BD7ACFEB5F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D54E562F-6851-4E8E-89D7-82AFB9337693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D54E562F-6851-4E8E-89D7-82AFB9337693}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D54E562F-6851-4E8E-89D7-82AFB9337693}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D54E562F-6851-4E8E-89D7-82AFB9337693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A1DAE3-BE3C-48E6-A421-EA8CB2979441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A1DAE3-BE3C-48E6-A421-EA8CB2979441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A1DAE3-BE3C-48E6-A421-EA8CB2979441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A1DAE3-BE3C-48E6-A421-EA8CB2979441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E8A04C-9F87-493A-82B8-3A5EADEA81E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E8A04C-9F87-493A-82B8-3A5EADEA81E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E8A04C-9F87-493A-82B8-3A5EADEA81E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E8A04C-9F87-493A-82B8-3A5EADEA81E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9A1DAE3-BE3C-48E6-A421-EA8CB2979441} = {95F84362-7506-462B-A115-D6FBDACEC4E7}
+		{B8E8A04C-9F87-493A-82B8-3A5EADEA81E9} = {F3402EBC-E20A-4219-810F-B24AE08BAABC}
 	EndGlobalSection
 EndGlobal

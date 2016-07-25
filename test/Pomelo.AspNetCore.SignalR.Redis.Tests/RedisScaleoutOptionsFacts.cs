@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace Microsoft.AspNetCore.SignalR.Redis.Tests
+namespace Pomelo.AspNetCore.SignalR.Redis.Tests
 {
     public class RedisScaleoutConfigurationFacts
     {

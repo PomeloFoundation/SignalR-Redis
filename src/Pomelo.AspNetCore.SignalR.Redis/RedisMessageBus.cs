@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.SignalR.Messaging;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Microsoft.AspNetCore.SignalR.Redis
+namespace Pomelo.AspNetCore.SignalR.Redis
 {
     public class RedisMessageBus : ScaleoutMessageBus
     {

@@ -3,7 +3,7 @@
 
 using System;
 using Microsoft.AspNetCore.SignalR.Messaging;
-using Microsoft.AspNetCore.SignalR.Redis;
+using Pomelo.AspNetCore.SignalR.Redis;
 using Microsoft.Extensions.Configuration;
 
 namespace Microsoft.Extensions.DependencyInjection

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Microsoft.AspNetCore.SignalR.Redis {
+namespace Pomelo.AspNetCore.SignalR.Redis {
     using System;
     using System.Reflection;
 
@@ -40,7 +40,7 @@ namespace Microsoft.AspNetCore.SignalR.Redis {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     Assembly assembly = typeof(Resources).GetTypeInfo().Assembly;
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Microsoft.AspNetCore.SignalR.Redis.Resources", assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Pomelo.AspNetCore.SignalR.Redis.Resources", assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -5,7 +5,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Microsoft.AspNetCore.SignalR.Redis
+namespace Pomelo.AspNetCore.SignalR.Redis
 {
     public interface IRedisConnection
     {

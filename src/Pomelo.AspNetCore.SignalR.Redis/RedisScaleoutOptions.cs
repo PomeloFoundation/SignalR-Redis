@@ -5,7 +5,7 @@ using System;
 using System.Globalization;
 using Microsoft.AspNetCore.SignalR.Messaging;
 
-namespace Microsoft.AspNetCore.SignalR.Redis
+namespace Pomelo.AspNetCore.SignalR.Redis
 {
     public class RedisScaleoutOptions : ScaleoutOptions
     {

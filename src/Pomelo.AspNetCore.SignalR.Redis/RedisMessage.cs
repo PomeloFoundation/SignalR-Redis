@@ -8,7 +8,7 @@ using System.Text;
 using Microsoft.AspNetCore.SignalR.Messaging;
 using Microsoft.Extensions.Logging;
 
-namespace Microsoft.AspNetCore.SignalR.Redis
+namespace Pomelo.AspNetCore.SignalR.Redis
 {
     public class RedisMessage
     {

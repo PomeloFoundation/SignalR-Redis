@@ -4,13 +4,13 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
-using StackExchange.Redis;
+using Pomelo.Redis;
 
-namespace Microsoft.AspNetCore.SignalR.Redis
+namespace Pomelo.AspNetCore.SignalR.Redis
 {
     public class RedisConnection : IRedisConnection
     {
-        private StackExchange.Redis.ISubscriber _redisSubscriber;
+        private Pomelo.Redis.ISubscriber _redisSubscriber;
         private ConnectionMultiplexer _connection;
         private ILogger _logger;
         private ulong _latestMessageId;
@@ -82,7 +82,7 @@ namespace Microsoft.AspNetCore.SignalR.Redis
         {
             try
             {
-                // Workaround for StackExchange.Redis/issues/61 that sometimes Redis connection is not connected in ConnectionRestored event 
+                // Workaround for Pomelo.Redis/issues/61 that sometimes Redis connection is not connected in ConnectionRestored event 
                 while (!_connection.GetDatabase(database).IsConnected(key))
                 {
                     await Task.Delay(200);
