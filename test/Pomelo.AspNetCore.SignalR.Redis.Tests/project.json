@@ -2,7 +2,7 @@
   "version": "1.0.0-*",
   "testRunner": "xunit",
   "dependencies": {
-    "Pomelo.AspNetCore.SignalR.Redis": "0.1.0-prerelease-20160726",
+    "Pomelo.AspNetCore.SignalR.Redis": "0.1.0-*",
     "Microsoft.Extensions.Logging": "1.0.0",
     "Moq": "4.6.36-alpha",
     "dotnet-test-xunit": "2.2.0-preview2-build1029",

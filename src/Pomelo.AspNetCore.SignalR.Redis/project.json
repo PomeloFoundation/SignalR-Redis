@@ -1,5 +1,18 @@
 {
-  "version": "0.1.0-prerelease-20160726",
+  "version": "0.1.0-*",
+
+  "packOptions": {
+    "authors": [ "Amamiya Yuuko" ],
+    "description": "MySQL provider for Entity Framework Core",
+    "projectUrl": "https://github.com/PomeloFoundation/SignalR-Redis",
+    "iconUrl": "http://www.1234.sh/assets/Shared/pomelofoundation.png",
+    "licenseUrl": "https://github.com/PomeloFoundation/SignalR-Redis/blob/master/LICENSE",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/pomelofoundation/SignalR-Redis"
+    }
+  },
+
   "dependencies": {
     "Microsoft.AspNetCore.SignalR.Server": "0.1.0",
     "Microsoft.Extensions.Configuration.Json": "1.0.0",
